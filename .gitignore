@@ -1,0 +1,18 @@
+# Файлы IntelliJ IDEA
+.idea/
+*.iml
+
+# Временные файлы
+*.log
+*.tmp
+*.bak
+Thumbs.db
+
+# Скомпилированные файлы Java
+*.class
+bin/
+target/
+out/
+
+# Системные файлы Windows
+Desktop.ini

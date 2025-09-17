@@ -22,7 +22,7 @@ public class Main {
                 System.out.print("Введите максимальную цену: ");
                 double maxPrice = scanner.nextDouble();
                 List<Apartment> apartments = system.findApartmentsByPrice(maxPrice);
-               System.out.println("Квартиры с ценой до " + maxPrice + ": " + apartments);
+		System.out.println("Найдено квартир с ценой <= " + maxPrice + ": " + apartments);
             } else if (choice == 2) {
                 System.out.print("Введите минимальный срок договора (месяцы): ");
                 int minDuration = scanner.nextInt();
